@@ -1,0 +1,50 @@
+header {
+
+	h1 {
+		margin: 0;
+		padding: 0;
+		font-size: 30px;
+		line-height: 30px;
+		font-weight: 800;
+		color: #3e4849;
+		text-transform: uppercase;
+	}
+	nav {
+		a {
+			color: #4a514c;
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: 15px;
+			line-height: 23px;
+		}
+	}
+
+}
+.navbar {
+	border-radius: 0;
+	border: 0;
+	background: #fff;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	.navbar-brand {
+		height: auto;
+	}
+}
+.nav > li > a {
+	line-height: 28px;
+}
+
+@media (max-width: 992px) {
+	.nav > li > a {
+		font-size: 12px;
+		line-height: 34px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+@media (max-width: 768px) {
+	.navbar {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}

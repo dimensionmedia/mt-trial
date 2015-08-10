@@ -1,0 +1,20 @@
+.footer {
+  /*position: absolute;
+  bottom: 0;*/
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 130px;
+  background-color: #f2f1ef;
+  text-align: center;
+  color: #3e4849;
+  font-weight: 300;
+  background-image: url('images/footer-bg.png');
+  background-position: center 25px;
+  background-repeat: no-repeat;
+  padding-top: 70px;
+  font-size: 14px;
+  line-height: 18px;
+  a {
+  	color: #000;
+  }
+}
